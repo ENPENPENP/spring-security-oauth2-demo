@@ -27,6 +27,6 @@ public class AuthorizationServerConfiguration extends AuthorizationServerConfigu
                 .secret("secret")
                 .authorizedGrantTypes("authorization_code")
                 .scopes("miniapp")
-                .redirectUris("http://localhost:12180/api/v1/event/oauth2");
+                .redirectUris("http://localhost:12180/api/v1/token/get");
     }
 }
